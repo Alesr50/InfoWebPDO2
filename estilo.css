@@ -1,0 +1,68 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;    
+    text-align: center;
+    background-color:  #e1e1e1;
+}
+
+label{
+    font-size:12pt;  
+}
+
+.container{
+    background-color: #ffff;
+    width:400px;
+    height:0px;
+    left: 50%;
+    margin: -130px 0 0 -210px;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+
+.field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+label{
+    font-size: medium;
+    padding-right: 10px;
+    
+  }
+  
+  /* Elementos de tags <input> */
+  input[type=text], input[type=password],input[type=email],input[type=number]  {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+  
+
+
+.button {
+    width: 100%;
+    font-size: 20px;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 18px 0;;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.button:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
