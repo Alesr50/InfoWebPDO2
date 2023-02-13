@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+/* Header/Titulo*/
+.header {
+    padding: 30px;
+    text-align: center;
+    background: blue;
+  }
+  
+
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+
+
+  /* Estilizando a barra de navegação */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  /* Estilizando os links da barra de navegaçao */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+
+  /*  rodapé */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
